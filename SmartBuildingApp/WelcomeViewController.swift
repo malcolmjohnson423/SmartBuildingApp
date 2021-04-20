@@ -1,21 +1,26 @@
 //
-//  ViewController.swift
+//  WelcomeViewController.swift
 //  SmartBuildingApp
 //
-//  Created by Malcolm Johnson on 3/28/21.
+//  Created by Malcolm Johnson on 3/15/21.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func continueButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "continueSegue", sender: nil)
+    }
+    
+    
     /*
     // MARK: - Navigation
 

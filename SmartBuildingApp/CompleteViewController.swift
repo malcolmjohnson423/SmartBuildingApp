@@ -1,19 +1,20 @@
 //
-//  ViewController.swift
+//  CompleteViewController.swift
 //  SmartBuildingApp
 //
-//  Created by Malcolm Johnson on 3/28/21.
+//  Created by Malcolm Johnson on 4/19/21.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class CompleteViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
+    
     
 
     /*
